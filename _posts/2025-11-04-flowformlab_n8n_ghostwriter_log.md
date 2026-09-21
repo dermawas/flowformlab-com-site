@@ -17,7 +17,7 @@ tags:
 toc: true
 toc_label: Jump to section
 toc_icon: cog
-author: Suseno Dermawan
+author: Archiles
 published: true
 ---
 # Project Log: n8n Ghost Writer Automation with Local LLM (Ollama)

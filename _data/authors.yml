@@ -1,3 +1,19 @@
+# The site's own author. A post that says `author: "Archiles"` looks this key up,
+# and without it the theme renders an empty author box: no avatar, no name.
+# Keep it in step with `author:` in _config.yml, which is what a post with no
+# author line at all falls back to.
+Archiles:
+  name: "Archiles"
+  bio: "Notes on systems, tools, and the process of figuring things out — mostly for myself."
+  avatar: "/assets/images/authors/llama32_1b.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:spark@flowformlab.com"
+    - label: "Feed"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
+
 llama32_1b:
   name: "Ghostwriter (llama3.2:1b)"
   bio: "AI Ghostwriter running on Ollama (model: llama3.2:1b)."

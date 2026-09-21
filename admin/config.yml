@@ -118,29 +118,8 @@ collections:
           - { label: "Table of contents", name: "toc", widget: "boolean", default: false, required: false }
           - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: "Contact"
-        name: "contact"
-        file: "contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Layout", name: "layout", widget: "string", default: "single", required: false }
-          - { label: "Permalink", name: "permalink", widget: "string", default: "/contact/" }
-          - { label: "SEO Description", name: "description", widget: "text", required: false }
-          - label: "Hero / Header"
-            name: "header"
-            widget: "object"
-            collapsed: true
-            required: false
-            fields:
-              - { label: "Featured image", name: "overlay_image", widget: "image", required: false }
-              - { label: "Image caption (Markdown OK)", name: "caption", widget: "string", required: false }
-              - label: "Overlay filter (0-1)"
-                name: "overlay_filter"
-                widget: "number"
-                value_type: "float"
-                min: 0
-                max: 1
-                step: 0.05
-                required: false
-          - { label: "Table of contents", name: "toc", widget: "boolean", default: false, required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
+      # There is no Contact entry on purpose. The site has no contact.md and the
+      # nav link is commented out in _data/navigation.yml. An entry here opened
+      # an empty form, and saving it would have created the page by accident.
+      # Removed 2026-09-21. If a Contact page is ever wanted, create contact.md
+      # first, then copy the About block above.
