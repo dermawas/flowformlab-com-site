@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Archiles, a ghost with glowing eyes">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#34406a"/>
+      <stop offset="0.6" stop-color="#202842"/>
+      <stop offset="1" stop-color="#141929"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0.15" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#eaeff8"/>
+      <stop offset="1" stop-color="#b9c6df"/>
+    </linearGradient>
+    <filter id="halo" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" fill="url(#bg)"/>
+
+  <!-- faint circuit traces in the background -->
+  <g fill="none" stroke="#2fd3c9" stroke-opacity="0.22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 92h26l12-12h18"/>
+    <path d="M238 150h-24l-12 12h-14"/>
+    <path d="M40 214h22l10-10"/>
+    <path d="M216 52h-20l-10 10"/>
+  </g>
+  <g fill="#2fd3c9" fill-opacity="0.35">
+    <circle cx="18" cy="92" r="3.5"/><circle cx="238" cy="150" r="3.5"/>
+    <circle cx="40" cy="214" r="3.5"/><circle cx="216" cy="52" r="3.5"/>
+  </g>
+
+  <!-- teal halo behind the ghost -->
+  <path d="M66 198V122a62 62 0 0 1 124 0v76a15.5 15.5 0 0 1-31 0a15.5 15.5 0 0 1-31 0a15.5 15.5 0 0 1-31 0a15.5 15.5 0 0 1-31 0z"
+        fill="#2fd3c9" fill-opacity="0.55" filter="url(#halo)"/>
+
+  <!-- the ghost -->
+  <path d="M66 198V122a62 62 0 0 1 124 0v76a15.5 15.5 0 0 1-31 0a15.5 15.5 0 0 1-31 0a15.5 15.5 0 0 1-31 0a15.5 15.5 0 0 1-31 0z"
+        fill="url(#body)"/>
+
+  <!-- eyes: glowing, like status lights -->
+  <g filter="url(#glow)">
+    <rect x="92" y="108" width="24" height="34" rx="12" fill="#12b8ae"/>
+    <rect x="140" y="108" width="24" height="34" rx="12" fill="#12b8ae"/>
+  </g>
+  <circle cx="100" cy="117" r="4.2" fill="#eafffd"/>
+  <circle cx="148" cy="117" r="4.2" fill="#eafffd"/>
+
+  <!-- a small smile -->
+  <path d="M116 160q12 11 24 0" fill="none" stroke="#1d2740" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- a circuit trace on the chest -->
+  <g fill="none" stroke="#12b8ae" stroke-opacity="0.75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 184h16l9-9h14"/>
+    <path d="M168 190h-12l-8-8"/>
+  </g>
+  <g fill="#12b8ae">
+    <circle cx="88" cy="184" r="4"/><circle cx="127" cy="175" r="4"/>
+    <circle cx="168" cy="190" r="4"/><circle cx="148" cy="182" r="4"/>
+  </g>
+
+  <!-- the spark: the usual mark for "AI" -->
+  <g fill="#5ff0e6" filter="url(#glow)">
+    <path d="M196 46c2 12 6 16 18 18c-12 2-16 6-18 18c-2-12-6-16-18-18c12-2 16-6 18-18z"/>
+    <path d="M224 90c1 6 3 8 9 9c-6 1-8 3-9 9c-1-6-3-8-9-9c6-1 8-3 9-9z" fill-opacity="0.85"/>
+  </g>
+</svg>
