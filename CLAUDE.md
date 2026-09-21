@@ -19,13 +19,13 @@ There is no `Gemfile` / local Jekyll toolchain committed — GitHub Pages builds
 
 ## Content model
 
-- New posts go in `_posts/YYYY-MM-DD-title.md`. Copy the front-matter shape from `_posts/_template.md` (there's a matching `_drafts/_template.md` for drafts).
+- New posts go in `_posts/YYYY-MM-DD-title.md`. Copy the front-matter shape from `_templates/post.md` (there's a matching `_drafts/_template.md` for drafts). The post template lived in `_posts/` until 2026-09-21, where Decap listed it as an entry called "Post title".
 - **Visibility is controlled by the `published: true/false` front-matter flag**, not by which folder the file lives in. `published: false` is core Jekyll behaviour, not a site convention: Jekyll itself leaves the post out of the build. Verified against the live `sitemap.xml` on 2026-09-21, where both `published: false` posts are absent.
 - **`categories` determines which section a post appears in**, and that's a hard routing dependency, not just metadata:
   - `categories: ["notes"]` (the default) → shows up on the homepage (`_layouts/home.html` filters `site.categories.notes`).
   - `categories: ["fiction"]` → shows up on `/fiction/` (`_layouts/fiction-index.html`, itself set via `taxonomy: fiction` in `fiction.md`, filters `site.categories[page.taxonomy]`).
   - Picking the wrong category silently drops a post from both listings.
-- `admin/config.yml` (Decap CMS schema) and `_posts/_template.md` must be kept in sync manually — CMS field changes don't propagate to the template or vice versa.
+- `admin/config.yml` (Decap CMS schema) and `_templates/post.md` must be kept in sync manually — CMS field changes don't propagate to the template or vice versa.
 
 ## Site-wide config
 

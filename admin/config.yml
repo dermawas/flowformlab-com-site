@@ -16,6 +16,13 @@ logo_url: /assets/images/logo-ffl-spark.svg
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
+# The "View Live" links in the entry editor are off, since 2026-09-21. They
+# always gave a 404: a draft has no page until it is published, and the path
+# Decap built did not match the site's real one, which is
+# /notes/YYYY/MM/DD/title.html. This does NOT touch the preview pane on the
+# right of the editor, which is where a draft is actually read.
+show_preview_links: false
+
 collections:
   # -------------------------
   # POSTS (folder-based only)
@@ -25,7 +32,8 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    preview_path: "{{year}}/{{month}}/{{day}}/{{slug}}/"
+    # No preview_path. The one that was here built /YYYY/MM/DD/<slug>/, and Jekyll
+    # serves /<category>/YYYY/MM/DD/<title>.html. See show_preview_links above.
     fields:
       # --- Draft control: top of form ---
       - label: "Published (site live)"
