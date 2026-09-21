@@ -15,12 +15,12 @@ There is no `Gemfile` / local Jekyll toolchain committed — GitHub Pages builds
   python tools/validate_frontmatter.py
   ```
   or on Windows: `.\validate.ps1`. Scans `_posts/` and `_drafts/`, checks required fields (`title`, `date`, `layout`, `categories`, `tags`, `published`), and exits non-zero on any error — writes a machine-readable report to `tools/validate_frontmatter.last.json`.
-- `tools/fix_frontmatter.py` — conservative auto-fixer for `_posts/` only: forces `layout: single`, `published: true`, and coerces `date` to a string. Run manually and review the diff; it's not part of any CI gate.
+- `tools/fix_frontmatter.py` — conservative auto-fixer for `_posts/` only: forces `layout: single`, adds `published: true` only when the key is absent (it never flips an existing `published: false`, so it will not publish drafts), and coerces `date` to a string. Run manually and review the diff; it's not part of any CI gate.
 
 ## Content model
 
 - New posts go in `_posts/YYYY-MM-DD-title.md`. Copy the front-matter shape from `_posts/_template.md` (there's a matching `_drafts/_template.md` for drafts).
-- **Visibility is controlled by the `published: true/false` front-matter flag**, not by which folder the file lives in — this is a site-specific convention layered on top of Jekyll, enforced only by the validator/CMS UI, not by Jekyll itself.
+- **Visibility is controlled by the `published: true/false` front-matter flag**, not by which folder the file lives in. `published: false` is core Jekyll behaviour, not a site convention: Jekyll itself leaves the post out of the build. Verified against the live `sitemap.xml` on 2026-09-21, where both `published: false` posts are absent.
 - **`categories` determines which section a post appears in**, and that's a hard routing dependency, not just metadata:
   - `categories: ["notes"]` (the default) → shows up on the homepage (`_layouts/home.html` filters `site.categories.notes`).
   - `categories: ["fiction"]` → shows up on `/fiction/` (`_layouts/fiction-index.html`, itself set via `taxonomy: fiction` in `fiction.md`, filters `site.categories[page.taxonomy]`).
