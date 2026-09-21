@@ -3,11 +3,12 @@ layout: single
 title: "Project Management, Reimagined: How AI Became My Most Reliable Teammate"
 date: "2026-09-21 11:02:04 +0700"
 categories: ["notes"]
-tags: ["n8n","claude code","decap cms","flowformlab"]
+tags: ["project management","ai","productivity","ways of working"]
 published: false
 toc: true
 toc_label: "Jump to section"
 description: "A project manager explains how AI now handles the repetitive admin work, like meeting notes, status updates, scope breakdowns and plan stress-testing, which saves them six to eight hours a week, while they stay responsible for the judgment and accountability the job depends on."
+excerpt: "A project manager explains how AI now handles the repetitive admin work, like meeting notes, status updates, scope breakdowns and plan stress-testing, which saves them six to eight hours a week, while they stay responsible for the judgment and accountability the job depends on."
 author: "Archiles"
 ---
 
