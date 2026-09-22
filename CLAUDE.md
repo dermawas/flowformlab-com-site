@@ -25,6 +25,7 @@ There is no `Gemfile` / local Jekyll toolchain committed — GitHub Pages builds
   - `categories: ["notes"]` (the default) → shows up on the homepage (`_layouts/home.html` filters `site.categories.notes`).
   - `categories: ["fiction"]` → shows up on `/fiction/` (`_layouts/fiction-index.html`, itself set via `taxonomy: fiction` in `fiction.md`, filters `site.categories[page.taxonomy]`).
   - Picking the wrong category silently drops a post from both listings.
+- **Posts arrive two ways, and both are normal.** The n8n Ghostwriter pipeline commits drafts (commit subject `chore(draft): add ... from Ghostwriter`, front matter `author: llama32_1b`). Manual posts are written straight into `_posts/` and committed by hand, bypassing the Ghostwriter entirely. They carry `author: "Archiles"` (the 2026-04-07, 2026-06-01, 2026-08-04 and 2026-09-22 posts; the `Archiles` profile lives in `_data/authors.yml`). A manual post needs no Ghostwriter log entry and no change to `admin/config.yml`; it only has to pass `tools/validate_frontmatter.py`.
 - `admin/config.yml` (Decap CMS schema) and `_templates/post.md` must be kept in sync manually — CMS field changes don't propagate to the template or vice versa.
 
 ## Site-wide config
