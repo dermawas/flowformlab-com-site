@@ -16,15 +16,15 @@ author: "Archiles"
 
 ---
 
-This is about my first month on site, in person, as the project manager of a twelve-month system build, and how I set up a way of working with AI that takes the project administration off my plate so I can spend my time on high-value work and on delivery. None of it is clever. Most of it is plain habits. But a month in, I can say where my hours go, and very few of them go to paperwork.
+My first month on site as project manager of a twelve-month build was also the month I set up a way of working with AI, so my time goes to delivery instead of administration. None of it is clever. Most of it is plain habits. But a month in, I can say where my hours go, and very few of them go to paperwork.
 
 ## What the AI does
 
-Every meeting is recorded and turned into text on my own laptop. Nothing leaves the machine. I decided that first, before I thought about anything else.
+Every meeting is recorded and turned into text on my own laptop. Nothing leaves the machine.
 
-Our meetings switch between Indonesian and English, sometimes in the middle of a sentence. I tried the smaller speech models first. Only the largest one got people's names right. It is slow, too: it takes about as long as the meeting did. I don't mind. The text is ready by the time I have walked back to my desk and finished the next thing.
+Our meetings switch between Indonesian and English, sometimes in the middle of a sentence. I tried the smaller speech models first. Only the largest one got people's names right. It is slow, too: it takes about as long as the meeting did. I don't mind.
 
-One small fix made a big difference. I keep a list of project names and terms, and the transcriber uses it to spell them. Without it, half the system names came out as near-misses.
+One small fix made a big difference. I keep a list of project names and terms, and the transcriber uses it to spell them. Without it, the project names came out as near-misses.
 
 From the transcript, the AI writes the minutes using my minutes template. From the same material it drafts:
 
@@ -41,7 +41,7 @@ Each one uses my own template. The AI can also read my email and the project tra
 
 I learned the second half of that rule early. Sometimes the AI states a fact from memory when it should read the source. A date that was right last week. A status that has since changed. It reads well and it is wrong.
 
-So every fact in a draft gets checked against the email or the ticket before it goes out. That takes minutes, not hours, and it is the part of the job I won't hand over.
+So every fact in a draft gets checked against the email or the ticket before it goes out. It is the part of the job I won't hand over.
 
 ## Where the freed time went
 
