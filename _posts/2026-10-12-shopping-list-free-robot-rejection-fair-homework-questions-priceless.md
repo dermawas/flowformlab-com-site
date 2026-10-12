@@ -1,9 +1,6 @@
 ---
-excerpt: 'A consulting professional describes Hermes, the AI family assistant
-  they built in an afternoon-sized Sunday to live in the family Telegram group,
-  priced line by line like the old "priceless" credit card ads: it keeps the
-  shopping list in a ticked Google Sheet, looks up rough prices, posts
-  reminders,...'
+excerpt: 'AI does my admin at work. At home, a family assistant called Hermes runs
+  our shopping list, and soon, I hope, the homework questions too.'
 toc: true
 layout: single
 author: Archiles
@@ -18,15 +15,12 @@ tags:
   - ai at home
   - parenting
   - shopping lists
-description: 'A consulting professional describes Hermes, the AI family
-  assistant they built in an afternoon-sized Sunday to live in the family
-  Telegram group, priced line by line like the old "priceless" credit card ads:
-  it keeps the shopping list in a ticked Google Sheet, looks up rough prices,
-  posts reminders,...'
+description: 'AI does my admin at work. At home, a family assistant called Hermes
+  runs our shopping list, and soon, I hope, the homework questions too.'
 toc_label: Jump to section
 ---
 
-**TL;DR:** A consulting professional describes Hermes, the AI family assistant they built in an afternoon-sized Sunday to live in the family Telegram group, priced line by line like the old "priceless" credit card ads: it keeps the shopping list in a ticked Google Sheet, looks up rough prices, posts reminders, emails only after someone taps Approve, and was fairly rejected as a robot by the big online shops. What won them over was Hermes asking how much water was left to learn the household's usage, and the priceless moment they plan for is the first time one of the kids asks it for homework help and gets a question back instead of the answer.
+**TL;DR:** AI does a lot of my admin at work, but the thing I'm proudest of is Hermes, a family assistant in our Telegram group that keeps the shopping list, posts reminders and only emails after someone taps Approve. It cost one Sunday and about USD 20 a month. The priceless part is still to come: the first time one of the kids asks it for homework help and gets a question back instead of the answer.
 
 ---
 
@@ -59,7 +53,7 @@ Free, and it's the part everyone touches. Hermes is just another member of the g
 
 It posts reminders, so the group gets a nudge instead of someone being the designated nagger. In most families that job lands on the same person every time. Handing it to a bot is a small kindness.
 
-Hermes can also email the family. But it doesn't just fire off emails when it feels like it. **It only sends after someone in the group taps Approve.** I like that rule a lot. It means Hermes is helpful without being presumptuous, which is more than I can say for some people I've worked with.
+Hermes can also email the family. But it doesn't just fire off emails when it feels like it. **It only sends after someone in the group taps Approve.** I like that rule a lot. It means Hermes is helpful without being presumptuous.
 
 ## One Sunday of setting it up
 
