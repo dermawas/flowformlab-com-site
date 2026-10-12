@@ -4,7 +4,7 @@ title: "Let the Builder Drive the Demo, Let the PM Run the Room"
 date: "2026-10-12 13:33:19 +0700"
 categories: ["notes"]
 tags: ["client demos","project management","team roles","scheduling","time zones"]
-published: false
+published: true
 toc: true
 toc_label: "Jump to section"
 description: "For client walkthroughs, the person who built the product should drive the screens so the client sees the real work and not a secondhand retelling, while the project manager runs the room: time, questions, agreements and follow-ups."
