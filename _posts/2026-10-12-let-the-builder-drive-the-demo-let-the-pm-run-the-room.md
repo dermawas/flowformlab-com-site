@@ -16,7 +16,7 @@ author: "Archiles"
 
 ---
 
-I've come to a simple rule for client walkthroughs, and this piece explains it: why the person who built it should drive the demo, and the project manager should run the room. It sounds like a small matter of who sits where. In practice it decides whether the client sees the real thing or a retelling of it, and whether your best people are still willing to show up next time.
+I've come to a simple rule for client walkthroughs: the person who built it drives the demo, and I, as the project manager, run the room. It sounds like a small matter of who sits where. In practice it decides whether the client sees the real thing or a retelling of it, and whether your best people are still willing to show up next time.
 
 ## The client's clock is the clock
 
@@ -48,17 +48,17 @@ The builder can. When a client asks something unexpected, the builder answers fr
 
 Driving the screens is one job. Running the room is another, and the builder shouldn't have to do both.
 
-The project manager owns the session. They open it, keep it to time, track the questions, steer the discussion back when it drifts, note what was agreed and handle follow-ups. The builder can then concentrate on showing the work and answering about it, without also watching the clock and the agenda.
+As the project manager, I own the session. I open it, keep it to time, track the questions, steer the discussion back when it drifts, note what was agreed and handle the follow-ups. The builder can then concentrate on showing the work and answering about it, without also watching the clock and the agenda.
 
-When I set up a walkthrough, I give the project manager the instruction in a single line: the builder drives the screens, you run the room. It's short on purpose. It tells each person what they own and what they don't. Nobody stands in for anyone else, and nobody covers both jobs.
+I learned this from the head of the firm I was delivering for, who put it to me in a single line before a walkthrough: "He drives the screens, you run the room." It's short on purpose. It tells each person what they own and what they don't. Nobody stands in for anyone else, and nobody covers both jobs.
 
 ## Ask once, get a yes, and stop asking
 
 The third part is the one I'd most like other managers to take on board.
 
-When a session needs a builder at an awkward hour, I ask them directly. I don't send the request through the project manager, and I don't take it for granted. I ask whether they'll drive the screens for that session. If they say yes, it's settled.
+When a session needs a builder at an awkward hour, the ask should be made directly, once, and not taken for granted. In our case the head of the firm asked the engineer himself whether he would drive the screens for the walkthrough. He agreed in one word, and that settled it.
 
-Then I make sure nobody asks again. Not the project manager, not a follow-up message, not a "just confirming" note the day before. I tell the project manager plainly not to ask a second time.
+The instruction to me came with it: do not ask him a second time. So I didn't. No follow-up message, no "just confirming" note the day before.
 
 The reason is simple. A dawn slot agreed to once is goodwill. The same request made twice is a cost. The second ask suggests you didn't trust the first answer. It makes the person spend a moment deciding all over again whether to give up their early morning. It turns a favour into an obligation that keeps getting re-checked. Goodwill is limited, and repeating the request is a reliable way to use it up.
 
