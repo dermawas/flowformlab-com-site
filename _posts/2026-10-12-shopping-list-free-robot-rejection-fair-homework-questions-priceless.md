@@ -1,15 +1,29 @@
 ---
-layout: single
-title: "Shopping List, Free. Robot Rejection, Fair. Homework Questions, Priceless."
-date: "2026-10-12 11:06:00 +0700"
-categories: ["notes"]
-tags: ["family assistant","household organisation","ai at home","parenting","shopping lists"]
-published: false
+excerpt: 'A consulting professional describes Hermes, the AI family assistant
+  they built in an afternoon-sized Sunday to live in the family Telegram group,
+  priced line by line like the old "priceless" credit card ads: it keeps the
+  shopping list in a ticked Google Sheet, looks up rough prices, posts
+  reminders,...'
 toc: true
-toc_label: "Jump to section"
-description: "A consulting professional describes Hermes, the AI family assistant they built in an afternoon-sized Sunday to live in the family Telegram group, priced line by line like the old \"priceless\" credit card ads: it keeps the shopping list in a ticked Google Sheet, looks up rough prices, posts reminders,..."
-excerpt: "A consulting professional describes Hermes, the AI family assistant they built in an afternoon-sized Sunday to live in the family Telegram group, priced line by line like the old \"priceless\" credit card ads: it keeps the shopping list in a ticked Google Sheet, looks up rough prices, posts reminders,..."
-author: "Archiles"
+layout: single
+author: Archiles
+published: true
+title: Shopping List, Free. Robot Rejection, Fair. Homework Questions, Priceless.
+date: 2026-10-12 11:06:00 +0700
+categories:
+  - notes
+tags:
+  - family assistant
+  - household organisation
+  - ai at home
+  - parenting
+  - shopping lists
+description: 'A consulting professional describes Hermes, the AI family
+  assistant they built in an afternoon-sized Sunday to live in the family
+  Telegram group, priced line by line like the old "priceless" credit card ads:
+  it keeps the shopping list in a ticked Google Sheet, looks up rough prices,
+  posts reminders,...'
+toc_label: Jump to section
 ---
 
 **TL;DR:** A consulting professional describes Hermes, the AI family assistant they built in an afternoon-sized Sunday to live in the family Telegram group, priced line by line like the old "priceless" credit card ads: it keeps the shopping list in a ticked Google Sheet, looks up rough prices, posts reminders, emails only after someone taps Approve, and was fairly rejected as a robot by the big online shops. What won them over was Hermes asking how much water was left to learn the household's usage, and the priceless moment they plan for is the first time one of the kids asks it for homework help and gets a question back instead of the answer.
