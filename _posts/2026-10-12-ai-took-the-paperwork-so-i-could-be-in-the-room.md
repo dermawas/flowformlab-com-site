@@ -4,7 +4,7 @@ title: "AI Took the Paperwork So I Could Be in the Room"
 date: "2026-10-12 12:10:25 +0700"
 categories: ["notes"]
 tags: ["project management","ai at work","decision making","remote teams","stakeholder management"]
-published: false
+published: true
 toc: true
 toc_label: "Jump to section"
 description: "A month into running a twelve-month system build on site, I've handed meeting transcription, minutes, reports and reminders to AI that only drafts, and I check every fact against the source before anything goes out."
